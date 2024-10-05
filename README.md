@@ -1,2 +1,14 @@
-# JobsDatabase
-CS50 Final Project - 2022
+# Jobs Database
+#### Video Demo:  <https://www.youtube.com/watch?v=Z2y_uKzuyPA>
+#### Description:
+In this project I have created a website where you can register either as an employer or as a candidate. As a candidate you can edit your account page and apply for jobs. As an employer you can edit your account page, post jobs, delete jobs, view, delete and contact candidates. 
+I am going to go through every page one by one:
+Registration: Here you can create an account, choosing an account type (employer or candidate), and entering your email and password, all html fields are requiered and python checks if there is an input and if it is correct. if the input is missing, or it is incorrect, the flashing error message will show up, indicating what the error is. 
+Login: Similar functionality like registration, just different purpose, on this page we can login using our credentials 
+Forgot password: Similar functionality again, but in this page we have to fill out the username and email, after we do that email will be sent to the customers email address contating the randomly generated password.
+Account: Here we can eiter as a candidate or an employer fill out our information which will be saved, and shown either as we trying to apply for a job (as candidate), or in company information (as an employer) for the jobs that we have posted. We also have an option to change the email or password.
+Homepage: Has a button to redirect to jobs section, and also shows 5 jobs sorted descending by time submitted
+Jobs: Here we can see a list of jobs, candidates only have an option to see more, but employers other than option to see more can add jobs, or delete jobs (only the ones created by them)
+Job Add: Job add page shows a form for the employer to fill out about the job.
+Job Info - Candidate: This section in the case of candidate shows a page with 3 sections, first one is the job info filled out by an employer while adding a job, second one is company info (taken from the employers account page), third one is apply form, which will be autofilled with info from candidates account page (what is not filled out will stay blank), candidate can change the information, fill out other fields and attach the CV, he can also attach CL or other documents, but that is not requiered.
+Job Info - Employer: In the case of empoyer checking the job information posted by other company he will see the same thing as a candidate just without apply tab. In the case it's his post he will see job info with the candidates who applied for that specific job, he can click to see more about the each candidate which will lead him to the page that shows job info and the specific information for that specific candidate (information that the candidate has submitted) along with options to download CV and other documents (if other attached), he can also email the candidate and delete that submission. 
